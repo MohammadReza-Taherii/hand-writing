@@ -1,0 +1,64 @@
+.search-container {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	align-items: center;
+	height: 100%;
+}
+.input-cols {
+	> div {
+		padding: 0 5px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		div[class~="ant-row"] {
+			width: 100%;
+			div[class~="ant-input-number"] {
+				width: 100%;
+			}
+		}
+	}
+	div.ant-form-item {
+		margin: 5px auto;
+		width: 100%;
+	}
+	label {
+		min-width: 90px;
+		margin-right: 10px;
+	}
+}
+
+.merchant-search-from {
+	width: 100%;
+
+	.button-cols {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+
+		@media (max-width: 576px) {
+			flex-direction: column;
+		}
+	}
+
+	.report-button {
+		min-width: 150px;
+		@media (max-width: 768px) and (min-width: 576px) {
+			min-width: 50%;
+			margin: 10px 2px;
+		}
+
+		@media (max-width: 576px) {
+			min-width: 100%;
+			margin: 10px 0;
+			display: block;
+		}
+
+		border-radius: 5px;
+		margin: 10px;
+	}
+}
+
+.Skeleton-options {
+	width: 100% !important;
+}

@@ -1,0 +1,26 @@
+.dropdown-button {
+	// width: 100%;
+	button {
+		&.status-btn {
+			// width: 100%;
+			margin-right: auto;
+			display: block;
+			margin-bottom: 16px;
+			border-radius: 4px;
+			width: 100px;
+			height: 40px;
+			direction: rtl;
+		}
+	}
+	> div {
+		// width: 100%;
+		justify-content: space-between;
+		span {
+			vertical-align: middle;
+		}
+	}
+}
+
+ul li {
+	text-align: right;
+}

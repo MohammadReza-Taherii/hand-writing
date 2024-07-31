@@ -1,0 +1,17 @@
+.title-container {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 30px;
+	color: var(--menu-theme);
+	align-items: center;
+	.heading {
+		font-size: 16px;
+		font-weight: 500;
+	}
+}
+.table-container.table-container {
+	border-radius: 12px;
+	box-shadow: var(--card-shadow);
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
